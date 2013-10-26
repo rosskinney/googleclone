@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end CSS reset */
+
+.clearfix {
+	clear: both;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+div.container {
+	border: 1px solid #000000;
+	overflow: hidden;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+span:hover {
+	text-decoration: none;
+}
+
+header ul li {
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px; 
+}
+
+header ul {
+	float: right;
+}
+
+.white {
+	background: #f2f2f2;
+	border-style: none;
+	border: 1px solid #666;
+	outline: none;
+	padding: 6px 12px;
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 11px;
+	font-family: Arial, sans-serif;
+	font-weight:bold;
+	padding: 10px;
+	margin: 10px;
+}
+
+.blue {
+	border-style: none;
+	border: 1px solid #4285f4;
+	outline: none;
+	background: #4285f4;
+	padding: 6px 12px;
+	text-decoration: none;
+	margin-right: 20px;
+	margin-top: 0px; 
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+}
+
+button span {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+textarea {
+   font-size: 14pt;
+   font-family: Arial;
+} 
+
+#button {
+	text-decoration: none;
+}
+
+#floater {
+	height:50%; 
+	margin: 100px;
+	text-align: center;
+}
+
+/* this makes the  horizontal list of items in the footer*/
+
+.left-float {
+	float:left;
+	margin: 10px 20px;
+}
+
+.right-float {
+	float: right;
+	margin: 10px 20px;
+}
+
+#new {
+	color: red;
+}
+
+footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 40px;
+   background: #f2f2f2;
+   color: #666;
+}
+
+footer li {
+	display: inline;
+	list-style-type: none;
+}
+
+footer li a {
+	color: #666;
+	margin: 10px;
+}
